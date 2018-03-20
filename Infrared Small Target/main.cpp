@@ -1,10 +1,4 @@
-#include<opencv2/opencv.hpp>
-#include<opencv2\highgui\highgui.hpp>
-#include<opencv2\imgcodecs\imgcodecs.hpp>
-#include <iostream>
-using namespace std;
-using namespace cv;
-
+#include"Functions Define and Header Files.h"
 //声明全局变量
 Mat g_srcImage, g_dstImage;//原始图和效果图
 int g_nElementShape = MORPH_RECT;//元素结构的形状

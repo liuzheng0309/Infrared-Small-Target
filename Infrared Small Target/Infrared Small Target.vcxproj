@@ -124,6 +124,9 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SME.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Functions Define and Header Files.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
